@@ -1,0 +1,767 @@
+.sectionContainer {
+    margin-top: 80px;
+    transition: background-image 1s linear;
+    background-image: url(https://allmateste.com.br/site-next/public/images/house-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 800px;;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+}
+
+.sectionContainer > img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    min-height: 100%;
+}
+
+.container,
+.containerStaticPage {
+    margin-top: 80px;
+    padding: 1.4rem;
+    background-color: #eee;    
+    min-height: 60vh;
+}
+
+.lineLinks,
+.lineLinksItem {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.lineLinks {
+    max-width: 1270px;
+}
+
+.lineLinksItem {
+    max-width: 1366px;
+    padding: 1rem 0;
+}
+
+.lineLinks span,
+.lineLinksItem span {
+    padding: 0 .2rem;
+}
+
+.lineLinks a,
+.lineLinksItem a {
+    border-bottom: 1px solid;
+    margin-left: 3px;
+}
+
+.containerStaticPage {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerStaticPage > h1,
+.containerStaticPage > div {
+    width: 100%;
+}
+
+.pageError {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contactsContainer,
+.servicesContent {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1366px;
+    padding: 2rem;
+}
+
+.servicesContent {
+    text-align: center;
+}
+
+.imageCompany {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.imageCompany > img {
+    width: 100%;
+}
+
+.missingImageCard {
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.infoContainer {
+    margin-top: 3rem;
+}
+
+.infoContainer > div {
+    margin: 2rem 0;
+}
+
+.bannerTeam {
+    background-image: url(https://allmateste.com.br/site-next/public/images/team.jpg);
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-bottom: 0 solid #d8d8d8;
+    border-top: 0 solid #d8d8d8;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.bannerCompany {
+    background-image: url(https://allmateste.com.br/site-next/public/images/company.jpg);
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-bottom: 0 solid #d8d8d8;
+    border-top: 0 solid #d8d8d8;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.banner {
+    background-image: url(https://allmateste.com.br/site-next/public/images/tt.jpg);
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-bottom: 0 solid #d8d8d8;
+    border-top: 0 solid #d8d8d8;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.bannerText {
+    padding: 80px 0 80px 0;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.bannerOverlay {
+    background-color: rgba(12, 12, 12, 0.7);
+} 
+
+.bannerText h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.mapContainer {
+    margin-top: 2rem;
+}
+
+.infoTitle {
+    font-size: 2rem;
+    line-height: 34px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.infoTitle > svg {
+    margin: 0 .4rem;
+}
+
+.author,
+.filterForm,
+.sponsor,
+.search {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%); 
+}
+
+.author {    
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.author > div {
+    text-align: center;
+    padding: 35px;
+}
+
+.author > div > img {
+    margin-top: -135px;
+}
+
+.filterForm {
+    margin-top: 25px;
+    padding: 35px;
+}
+
+.checkContainer {
+    margin-top: 1.4rem;
+}
+
+.sponsor,
+.search {
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.sponsor > img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.search > form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    border: 1px solid #eee;
+}
+
+.search > form > input,
+.search > form > button {
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    outline:none;
+    color: #707070;
+}
+
+.search > form > input:first-child {
+    max-width: 280px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.search > form > button {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author > div > span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    font-weight: 600;
+    margin-top: .3rem;
+}
+
+.sectionDiv {
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.catchPhrase {
+    display: none;
+}
+
+.card,
+.teamCard {
+    max-width: 480px;    
+    margin-top: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+    -webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+}
+
+.teamCard {
+    max-width: 400px;
+}
+
+.teamImage,
+.noImage {
+    min-height: 300px;
+}
+
+.noImage > img,
+.teamImage > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.newsCard {
+    position: relative;
+    min-width: 280px; 
+    max-width: 400px;
+    border: 1px solid #eee;
+    margin-top: 2rem;
+}
+
+.newsCard  > img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsCard > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
+    display: flex;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-items: flex-end;
+    padding: .4rem 1rem;
+    overflow: hidden;
+    font-size: 1.6rem;
+    color: #fff;
+    opacity: 0;
+}
+
+.newsCard > a:hover {
+    background:rgb(0, 0, 0, .4);
+    opacity: 1;
+}
+
+.cardInfo {
+    padding: 1rem;
+}
+
+.cardInfo h4 {
+    margin: .3rem 0;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.cardInfo span {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.imageCardContainer {
+    position: relative;
+}
+
+.imageCardContainer > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+}
+
+.imageCardContainer > a:hover {
+    background:rgb(0, 0, 0, .4);
+    opacity: 1;
+}
+
+.imageCardContainer > img {
+    width: 100%;
+}
+
+.cardInfo > h3 {
+    font-size: 1.15rem;    
+    margin: 0;
+    font-weight: 600;
+    display: block;
+}
+
+.cardText {
+    font-size: 1.4rem;
+    color: rgb(168, 168, 168);
+    overflow: hidden;
+    min-height: 130px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.cardPrice {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cardFeatures {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: darkgrey;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: .5rem 0;
+    flex-wrap: wrap;
+}
+
+.cardFeatures > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardFeatures > div:first-child {
+    margin-left: 0;
+}
+
+.cardFeatures > div > svg {
+    padding: .4rem;
+    font-size: 2.3rem;
+}
+
+.cardFeatures > div::after {
+    content: '|';
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-left: .7rem;
+}
+
+.garages::after {
+    content: ''!important;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 1.5rem;
+}
+
+.diagonalBox {
+    background-color: #eee; 
+    position: relative;
+}
+
+.diagonalBox:after {
+    content: '';
+	position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #eee; 
+    margin-top: -1px;    
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.invertedDiagonalBox {
+    background-color: #FFF; 
+    position: relative;
+}
+
+.invertedDiagonalBox:after {
+    content: '';
+	position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff; 
+    margin-top: -1px;    
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
+}
+
+.invertedDiagonalBoxLeft {
+    background-color: #FFF; 
+    position: relative;
+}
+
+.invertedDiagonalBoxLeft::after {
+    content: '';
+	position: absolute;
+    height: 250px;
+    width: 100%;
+    top: 1px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #eee; 
+    clip-path: polygon(130% 50%, 100% 100%, 0% 100%, 0% 85%)
+}
+
+.invertedDiagonalBoxLeftBlue {
+    background-color: #fff; 
+    position: relative;
+}
+
+.invertedDiagonalBoxLeftBlue::after {
+    content: '';
+	position: absolute;
+    height: 250px;
+    width: 100%;
+    top: -249px;;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff; 
+    clip-path: polygon(130% 50%, 100% 100%, 0% 100%, 0% 85%)
+}
+
+.BuyOrSell {
+    background-image: url(https://allmateste.com.br/site-next/public/images/dane-deaner-bg.jpg);
+    background-position: center left;
+    background-size: cover;
+    min-height: 670px;
+    padding: 250px 0 250px 0;
+}
+
+.BuyOrSellContent {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.BuyOrSellContent > h2:first-child {
+    font-size: 2.4rem;
+    padding: 1.6rem 0;
+}
+
+.BuyOrSellContent > div:nth-child(2) {
+    padding: .8rem 0;
+}
+
+.BuyOrSellActions {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BuyOrSellActions > button,
+.BuyOrSellActions > a {
+    display: block;
+    padding: 1.2rem 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    transition: all .3s;
+}
+
+.BuyOrSellActions > button:hover,
+.BuyOrSellActions > a:hover {
+    opacity: .6;
+}
+
+.BuyOrSellActions > button:first-child {
+    background-color: #1ea69a;
+}
+
+.Team {
+    background-color: #eee;
+}
+
+.TeamContent,
+.TeamContentFull {
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeamContent > h1:first-child {
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+}
+
+.cardText {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.teamCellphone {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.teamLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 3rem 1rem 3rem;
+    border-top: 1px solid #eee;
+}
+
+.teamLinks > div {
+    margin: 0 .4rem
+}
+
+.imageNews {
+    position: initial;
+}
+
+.testimonialGallery {
+    width: 100%;
+}
+
+.Testimonial {
+    min-height: 420px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Testimonial div {
+    width: 100%;
+    padding: 0rem 1rem;
+    text-align: end;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.Testimonial h3 {
+    padding: 0rem 3rem;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.errorMessage {
+    color: rgb(172, 0, 34);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+
+
+@media (min-width: 1024px) {
+    .filterForm {
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 110px;
+    }
+
+    .sectionContainer {
+        height: 750px;
+        margin-top: 110px;
+    }
+
+    .newsCard {
+        min-width: 350px;
+    }
+
+    .cardInfo > h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .cardFeatures {
+        font-size: 1.3rem;
+    }
+
+    .cardText {
+        font-size: 1.2rem;
+    }
+
+    .catchPhrase {
+        display: block;
+        padding-top: 120px;
+    }
+
+    .sectionDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+    }
+
+}
+
+@media (min-width: 860px) {
+    .contactstInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .infoContainer {
+        margin-top: 0;
+    }
+
+    .Testimonial div,
+    .Testimonial h3 {
+        max-width: 1100px;
+        font-size: 1.5rem;
+    }
+
+    .Testimonial div {
+        width: 100%;
+        padding: 0rem 1rem;
+        text-align: end;
+        font-size: 1.3rem;
+    }
+
+    .Testimonial h3 {
+        padding: 2rem 5rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .sectionDiv {
+        max-width: 1124px;
+    }
+
+    .bannerText h1 {
+        padding: 0 1.4rem;
+    }
+}
+
+
+@media (min-width: 640px) and (max-width: 960px) {
+    .filterList > div,
+    .filterList > div select {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .BuyOrSellContent {
+        font-size: 1.1rem;
+    }
+
+    .BuyOrSellContent > div:first-child {
+        font-size: 1.6rem;
+    }
+
+    .newsCard > a {
+        font-size: 1.2rem;
+    }
+}

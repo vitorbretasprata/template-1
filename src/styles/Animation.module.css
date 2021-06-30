@@ -1,0 +1,414 @@
+.section {
+    display: inline-flex;
+}
+
+.section > div:nth-child(1) {
+    margin-right: 25px;
+}
+
+.section > div {
+    font-size: 3.5rem;
+    color: aliceblue;
+    font-weight: 700;
+    position: relative;
+}
+
+.FirstAnimatedContainer > div > div,
+.SecoundAnimatedContainer > div {
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.CPFirst > div,
+.CPSecound > div {
+    padding: .3rem 0;
+    margin: .3rem 0;
+    font-size: 3.4rem;
+}
+
+.CPFirst > div,
+.CPSecound > div,
+.SCPFirst > div,
+.SCPSecound > div,
+.SCPThird > div,
+.TCPFirst > div,
+.TCPSecound > div,
+.TCPThird > div {
+    display: inline-block;
+    position: relative;
+    left: -250px;
+    opacity: 0;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: letter;
+    animation-fill-mode: forwards;
+}
+
+.CPFirst > h1:nth-child(1) {
+    animation-delay: .1s;
+}
+
+.CPFirst > h1:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.CPFirst > h1:nth-child(3) {
+    animation-delay: .3s;
+}
+
+.CPFirst > h1:nth-child(4) {
+    animation-delay: .4s;
+}
+
+.CPFirst > h1:nth-child(5) {
+    animation-delay: .5s;
+}
+
+.CPFirst > h1:nth-child(6) {
+    animation-delay: .6s;
+}
+
+.CPFirst > h1:nth-child(7) {
+    animation-delay: .7s;
+}
+
+.CPFirst > h1:nth-child(8) {
+    animation-delay: .8s;
+}
+
+
+.CPSecound > h1:nth-child(1) {
+    animation-delay: .9s;
+}
+
+.CPSecound > h1:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.CPSecound > h1:nth-child(3) {
+    animation-delay: 1.1s;
+}
+
+
+/* White Containers */
+
+
+.FirstAnimatedWhiteContainer,
+.SecoundAnimatedWhiteContainer {
+    background-color: #fff;
+}
+
+.FirstAnimatedContainer > div,
+.SecoundAnimatedContainer > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.FirstAnimatedWhiteContainer,
+.FirstAnimatedContainer,
+.SecoundAnimatedContainer,
+.SecoundAnimatedWhiteContainer {
+    height: 65px!important;
+    width: 0px;
+    animation-timing-function: ease;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+}
+
+.FirstAnimatedWhiteContainer,
+.FirstAnimatedContainer {
+    animation-name: container;
+}
+
+.SecoundAnimatedWhiteContainer,
+.SecoundAnimatedContainer {
+    animation-name: secoundContainer;
+}
+
+.FirstAnimatedContainer {
+    padding: .5rem 0 .5rem .3rem;
+    animation-delay: 1s;
+}
+
+.SecoundAnimatedContainer {
+    padding: .5rem 0 .5rem .3rem;
+    animation-delay: 1.2s;
+}
+
+
+.SCPFirst > div:nth-child(1) {
+    animation-delay: 2.1s;
+}
+
+.SCPFirst > div:nth-child(2) {
+    animation-delay: 2.2s;
+}
+
+.SCPFirst > div:nth-child(3) {
+    animation-delay: 2.3s;
+}
+
+.SCPFirst > div:nth-child(4) {
+    animation-delay: 2.4s;
+}
+
+.SCPFirst > div:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+.SCPFirst > div:nth-child(6) {
+    animation-delay: 2.6s;
+}
+
+.SCPFirst > div:nth-child(7) {
+    animation-delay: 2.7s;
+}
+
+.SCPFirst > div:nth-child(8) {
+    animation-delay: 2.8s;
+}
+
+
+.SCPFirst > div:nth-child(9) {
+    animation-delay: 2.9s;
+}
+
+.SCPFirst > div:nth-child(10) {
+    animation-delay: 3s;
+}
+
+.SCPFirst > div:nth-child(11) {
+    animation-delay: 3.1s;
+}
+
+
+.SCPSecound > div:nth-child(1) {
+    animation-delay: 3.2s;
+}
+
+.SCPSecound > div:nth-child(2) {
+    animation-delay: 3.3s;
+}
+
+.SCPSecound > div:nth-child(3) {
+    animation-delay: 3.4s;
+}
+
+
+.SCPThird > div:nth-child(1) {
+    animation-delay: 3.5s;
+}
+
+.SCPThird > div:nth-child(2) {
+    animation-delay: 3.6s;
+}
+
+.SCPThird > div:nth-child(3) {
+    animation-delay: 3.7s;
+}
+
+.SCPThird > div:nth-child(4) {
+    animation-delay: 3.8s;
+}
+
+.SCPThird > div:nth-child(5) {
+    animation-delay: 3.9s;
+}
+
+.SCPThird > div:nth-child(6) {
+    animation-delay: 4s;
+}
+
+
+
+.TCPFirst > div:nth-child(1) {
+    animation-delay: 2.1s;
+}
+
+.TCPFirst > div:nth-child(2) {
+    animation-delay: 2.2s;
+}
+
+
+.TCPSecound > div:nth-child(1) {
+    animation-delay: 2.3s;
+}
+
+
+
+.TCPThird > div:nth-child(1) {
+    animation-delay: 2.4s;
+}
+
+.TCPThird > div:nth-child(2) {
+    animation-delay: 2.5s;
+}
+
+.TCPThird > div:nth-child(3) {
+    animation-delay: 2.6s;
+}
+
+.TCPThird > div:nth-child(4) {
+    animation-delay: 2.7s;
+}
+
+.TCPThird > div:nth-child(5) {
+    animation-delay: 2.8s;
+}
+
+.TCPThird > div:nth-child(6) {
+    animation-delay: 2.9s;
+}
+
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    display: flex;
+}
+
+.obj {
+    width: 6px;
+    height: 40px;
+    background: cadetblue;
+    margin: 0 3px;
+    border-radius: 10px;
+    animation: loading 0.8s infinite;
+}
+
+.obj:nth-child(2) {
+    animation-delay: .1s;
+}
+.obj:nth-child(3) {
+    animation-delay: .2s;
+}
+.obj:nth-child(4) {
+    animation-delay: .3s;
+}
+.obj:nth-child(5) {
+    animation-delay: .4s;
+}
+.obj:nth-child(6) {
+    animation-delay: .5s;
+}
+.obj:nth-child(7) {
+    animation-delay: .6s;
+}
+.obj:nth-child(8) {
+    animation-delay: .7s;
+}
+.obj:nth-child(9) {
+    animation-delay: .8s;
+}
+
+
+@keyframes loading {
+    0% {
+        height: 0px;
+    }
+    50% {
+        height: 40px;
+    } 
+    100% {
+        height: 0px;
+    }  
+}
+
+
+  
+@keyframes letter {
+    0% { 
+        left: -250px;
+        opacity: 0;
+        transform: rotate(360deg);
+    }    
+    100% { 
+        left: 0px; 
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes container {
+    0% { 
+        width: 0;
+    }    
+    100% { 
+        width: 580px;
+    }
+}
+
+
+@keyframes secoundContainer {
+    0% { 
+        width: 0;
+    }    
+    100% { 
+        width: 260px;
+    }
+}
+
+@keyframes containerSmaller {
+    0% { 
+        width: 0;
+    }    
+    100% { 
+        width: 380px;
+    }
+}
+
+
+@keyframes secoundContainerSmaller {
+    0% { 
+        width: 0;
+    }    
+    100% { 
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .section {
+        padding-left: 25px;
+    }
+
+    .section,
+    .FirstAnimatedWhiteContainer,
+    .SecoundAnimatedWhiteContainer {
+        margin-left: 25px;
+    }
+
+    .FirstAnimatedWhiteContainer,
+    .FirstAnimatedContainer,
+    .SecoundAnimatedContainer,
+    .SecoundAnimatedWhiteContainer {
+        height: 45px!important;
+        
+    }
+
+    .section > div {
+        font-size: 2.5rem;
+    }
+    
+    .FirstAnimatedContainer > div > div,
+    .SecoundAnimatedContainer > div {
+        font-size: 1.5rem;
+    }
+    
+
+    .FirstAnimatedWhiteContainer,
+    .FirstAnimatedContainer {
+        animation-name: containerSmaller;
+    }
+
+    .SecoundAnimatedWhiteContainer,
+    .SecoundAnimatedContainer {
+        animation-name: secoundContainerSmaller;
+    }
+
+}
